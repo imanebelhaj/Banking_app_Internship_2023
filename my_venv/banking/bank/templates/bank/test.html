@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   <link  rel="stylesheet" href="earth.css">
+    <title>planet earth</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Charis+SIL:ital@1&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<style>
+  
+*{
+    background-color: black;
+    overflow-x: hidden;
+}
+
+
+.content{
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+    box-sizing: border-box;
+ }
+h1{
+    margin-top: 0%;
+    font-size:350%;
+    color: white;
+    position:relative;
+    text-align: center;
+    letter-spacing: 3px;
+    width: 100%;
+    height: 90vh;
+    background: url(idk.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-attachment: fixed;
+    cursor: pointer;
+    
+}
+span:hover {
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 10px rgb(255, 255, 255),
+                 0 0 20px #fff,
+                 0 0 40px #fff,
+                 0 0 80px #fff,
+                 0 0 120px #fff,
+                 0 0 160px rgb(255, 255, 255);
+}
+ span{
+   
+    transition: 0.2s;
+    background-color: transparent;
+}
+
+
+section p{
+    text-align: center;
+    font-size: 1.3em;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+}
+h2{
+    font-size: 1.6em;
+    text-align: center;
+    color: rgb(62, 61, 143);
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.lola video{
+    height: 70vh;
+    margin-left: 19%;
+    object-fit:cover;
+}
+.lola embed{
+        margin-left: 50%; 
+        transform: translate(-50%);
+        height: 400px;
+        width: 800px;
+        
+    }
+
+.lola img{
+    margin-left: 50%; 
+    transform: translate(-50%);
+   
+}
+
+a{
+    color: white;
+    font-family:'Poppins',sans-serif;
+    font-size: 1.2em;
+ }
+
+
+#next{
+
+    margin-left: 89%;
+}footer{
+    font-family:'Poppins',sans-serif;
+    position: fixed;
+    background-color: transparent;
+    left: 0;
+    top: 0.3em;
+    width: 100%;
+    font-size: 1.1em;
+    letter-spacing: 0.1em;
+
+
+
+    
+}
+#menu{
+  text-decoration: none;
+  font-family:'Poppins',sans-serif;
+}
+#down{
+    position: fixed;
+    background-color: black;
+    bottom: 0em;
+    width: 100%;
+}
+</style>
+
+<body>
+
+    <div class="content">
+      <section>
+        <h1><span> <br> PLANET EARTH</span></h1>
+        <h2><br>Things you might know as you might  not know about planet earth :</h2>
+        
+        <div class="lola">
+        <p><br><br>Earth &#127758,our home planet is the third planet from the Sun, and the only place we know of so far that’s inhabited by living things.<br>
+         this blue speck in space holds the past, present and future of our very existence.<br><br></p>
+<video autoplay loop muted >
+  <source src="earthrotate.mp4" type="video/mp4">
+
+</video>
+<br> <br>
+<h2>HOME, SWEET HOME</h2>
+<br>
+<p> While large volumes of water can be found throughout the Solar System, only Earth sustains liquid surface water. About 71% of Earth's surface is made up of the ocean, dwarfing Earth's polar ice, lakes, and rivers. The remaining 29% of Earth's surface is land, consisting of continents and islands. Earth's surface layer is formed of several slowly moving tectonic plates, interacting to produce mountain ranges, volcanoes, and earthquakes. Earth's liquid outer core generates the magnetic field that shapes Earth's magnetosphere, deflecting destructive solar winds.<br>
+        </p>
+        <img src="yess.gif">
+        <br><br>
+        <h2>WE'RE ON IT</h2>
+        <p> <br>Earth is the fifth largest planet in our solar system, and it's the only one known for sure to have liquid water on its surface.<br>
+         Earth is also unique in terms of monikers. <br></p>
+
+        
+        <p> Every other solar system planet was named for a Greek or Roman deity,<br> but for at least a thousand years,
+          some cultures have described our world using the Germanic word “earth,”<br> which means simply “the ground.”<br></p>
+          <br> 
+          <h2>A LITTLE TRIP AROUND EARTH </h2>
+          <br>
+          <embed src="https://www.youtube.com/embed/HCDVN7DCzYE">
+      <br><br><br> <br>
+        </section>
+    </div>
+
+    <div id="down">
+      <a  href="sun.html" id="back"> &#x2190 back </a>
+      <a href="moon.html" id="next"> next &#x2192;</a>
+    
+    </div>
+
+      <footer>
+        <a href="homepage.html" id="menu"><span>&#129680</span>	universe</a>
+        
+    </footer>
+
+    <script type="text/javascript">
+      const bg = document.getElementsByClassName('content');
+      window.addEventListener('scroll',function(){
+        bg.style.backgroundSize = +window.pageYOffset+ '%';
+      })
+    </script>
+
+   
+
+</body>

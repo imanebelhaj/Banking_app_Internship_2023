@@ -1,0 +1,31 @@
+{% extends 'bank/base.html' %}
+{%load static%}
+{% block content %}
+
+
+<div class="text-center">
+  <img src="{% static 'img/logo.png' %}" alt="Image Description" class="img-fluid mb-4" width="150">
+  <h3 class="fw-bold mb-0 custom-h2-margin">Welcome!</h3>
+  <p class=" mb-0 custom-h2-margin">Sign in to your account</p>
+</div>
+<br>
+
+<form action="" method="POST">
+    {% csrf_token %}
+
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label" style="font-size: 16px;">Username</label>
+          <input type="text" class="form-control" name="username" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label" style="font-size: 16px;">Password</label>
+          <input type="password" class="form-control"  name="password">
+        </div>
+        
+        <br>
+    <input type="submit" value="Log in"  class="btn btn-primary" class="btn btn-primary w-100 py-2"
+    cl>
+</form>
+<br>
+
+{% endblock %}
