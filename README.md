@@ -37,9 +37,12 @@ Phone Number: Contact details such as phone numbers are saved to facilitate comm
 Address: Users' addresses are stored to provide location-specific services.
 Account Number: Each user is assigned a unique account number for transactional purposes.
 Balance: The balance of each user's account is recorded and updated with each transaction.
-When transactions are made, the balances of both the sender and receiver are updated accordingly to reflect the new values.
+Transaction Data: All transaction data, including sender, receiver, amount, and time, is saved.
+Support Messages: Messages sent to the support center are saved for reference.
 
 This comprehensive storage of user data allows for efficient management of accounts and ensures a smooth banking experience for users.
+The project utilized Python's Django framework, Bootstrap for the front-end, and SQLite for database storage. It offers comprehensive banking functionalities for both users and administrators, ensuring secure transactions and efficient management of user accounts and activities.
+
 
 ## Development Details
 
