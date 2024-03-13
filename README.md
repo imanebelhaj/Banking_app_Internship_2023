@@ -32,6 +32,7 @@ This project was developed during my 1-month summer internship in 2023 at ITSS G
 - **SQLite:** All data for users is stored in an SQLite database, including the following information:
 
 Name: Users' names are stored for identification purposes.
+Date of Birth : dd/mm/yyy.
 Phone Number: Contact details such as phone numbers are saved to facilitate communication.
 Address: Users' addresses are stored to provide location-specific services.
 Account Number: Each user is assigned a unique account number for transactional purposes.
