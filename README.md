@@ -10,7 +10,7 @@
 ## Overview
 
 This project was developed during my 1-month summer internship in 2023 at ITSS GLOBAL. It aimed to create an interactive and user-friendly banking website using the Django framework in Python, with a responsive design.
-**Please note:** For a demonstration of the project in action, you can watch a screen-recorded video by [clicking here]([link_to_your_google_drive_video](https://drive.google.com/file/d/1tcz4yNeFtZuBdVs7bA4Fm7Ft1_waaF7Y/view?usp=drive_link)).
+**Please note:** For a demonstration of the project in action, you can watch a screen-recorded video by [clicking here](https://drive.google.com/file/d/1tcz4yNeFtZuBdVs7bA4Fm7Ft1_waaF7Y/view?usp=drive_link).
 
 ## Features
 
